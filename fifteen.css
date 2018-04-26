@@ -1,0 +1,53 @@
+/*
+Gordon lee
+4/25/18
+CSE 154 AA
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+
+
+body {
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 14pt;
+  text-align: center;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* sets size of puzzle area, make its position relative */
+#puzzle-area {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* style for tiles. set background to dog.jpg, and size it fit board*/
+.tiles {
+  background-image: url(background.jpg);
+  background-size: 400px 400px;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  border: 5px solid black;
+  font-size: 40pt;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+/* class that codes for tiles that are hovered over that are eligible to move */
+.hovered {
+  cursor: pointer;
+  color: red;
+  border-color: red;
+}
+
+#copyright-info {
+  /* https://www.what-dog.net/ */
+}
